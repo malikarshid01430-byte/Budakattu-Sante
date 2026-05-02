@@ -1,114 +1,118 @@
-# Budakattu Sante
+# 🌾 Budakattu Sante – Android App
 
-Budakattu Sante is an Android application developed to support tribal farmers and local community markets by improving product management, pre orders, supply tracking, transactions, and Minimum Support Price (MSP) awareness.
+A modern Android application built to support tribal farmers and local markets. It helps you manage products, pre orders, supply tracking, and transactions with a simple and reliable system.
 
-The application helps farmer groups, leaders, and customers connect through a simple digital platform that improves transparency, reduces manual work, and supports better decision making.
+---
 
-## Features
+## 🚀 Features
 
-* User onboarding and login system
-* Leader dashboard for management
-* Product listing and product details
-* Pre order management
-* Customer list management
-* Supply log tracking
-* Transaction management
-* MSP information display
-* Profile and settings management
-* Offline local database using Room Database
-* Background synchronization support using WorkManager
+• 🔐 User onboarding and login
+• 📊 Leader dashboard for management
+• 📦 Product listing and details
+• 🛒 Pre order management
+• 👥 Customer list management
+• 📋 Supply log tracking
+• 💰 Transaction management
+• 📉 MSP information display
+• 👤 Profile and settings management
+• 🗂️ Offline storage using Room Database
+• 🔄 Background sync using WorkManager
 
-## Tech Stack
+---
 
-### Frontend
+## 🛠️ Tech Stack
 
-* Kotlin
-* XML Layouts
-* Android Jetpack Components
-* Navigation Component
-* RecyclerView
-* Material Design
+• Language: Kotlin
+• UI: XML Layouts, Material Design
+• Architecture: MVVM, Repository Pattern
+• Database: Room with DAO
+• Navigation: Jetpack Navigation Component
+• Background Tasks: WorkManager
+• Dependency Injection: Hilt
 
-### Backend and Data
+---
 
-* Room Database
-* DAO Architecture
-* Repository Pattern
-* MVVM Architecture
+## 📂 Project Structure
 
-### Dependency Injection
+com.example.budakattu_sante
 
-* Hilt / Dependency Injection Modules
+data/ → Local database and repository
+di/ → Dependency injection modules
+ui/ → Fragments, adapters, viewmodels
+util/ → Helper classes
+worker/ → Background tasks
 
-### Background Processing
+---
 
-* WorkManager
+## ⚙️ Setup Instructions
 
-## Project Structure
+### Clone the Repository
 
-app/src/main/java/com/example/budakattu_sante/
+git clone [https://github.com/malikarshid01430-byte/Budakattu-Sante.git](https://github.com/malikarshid01430-byte/Budakattu-Sante.git)
 
-* data
+---
 
-  * local
-  * repository
-* di
-* ui
+### Or Download ZIP
 
-  * adapter
-  * fragment
-  * viewmodel
-* util
-* worker
+1. Go to the repository on GitHub
+2. Click Code
+3. Click Download ZIP
+4. Locate the downloaded ZIP file
+5. Right click the file
+6. Select Extract Here or Extract to folder
+7. Open the extracted folder
 
-## Objective
+---
 
-The main objective of this project is to create a reliable and user friendly mobile solution for tribal market management that helps:
+### Import into Android Studio
 
-* improve farmer income visibility
-* simplify pre order and supply tracking
-* maintain transaction records
-* provide access to MSP information
-* support organized community level trading
+1. Open Android Studio
+2. Click Open
+3. Select the extracted project folder
+4. Wait for Gradle sync to complete
+5. Click Run to launch the app
 
-## Installation
+---
 
-1. Clone the repository
+## 🎯 Purpose
 
-git clone https://github.com/malikarshid01430-byte/Budakattu-Sante.git
+This app helps you manage tribal market operations digitally. You can track supply, handle transactions, and improve decision making with organized data.
 
-2. Open the project in Android Studio
+---
 
-3. Sync Gradle files
+## 🔮 Future Improvements
 
-4. Connect emulator or Android device
+• Firebase integration
+• Online payment support
+• Real time notifications
+• Admin web dashboard
+• Multi language support
+• Cloud synchronization
+• Analytics and reporting
 
-5. Run the application
+---
 
-## GitHub Repository
+## 🤝 Contributing
 
-Repository Link:
+Fork the repository
+Create a new branch
+Make changes and commit
+Push and create a pull request
 
-https://github.com/malikarshid01430-byte/Budakattu-Sante
+---
 
-## Future Enhancements
+## 📄 License
 
-* Firebase integration
-* Online payment support
-* Real time notifications
-* Admin web dashboard
-* Multi language support
-* Cloud synchronization
-* Analytics and reporting
+This project is developed for academic and internship purposes
 
-## Author
+---
 
-Arshid Malik
+## 👨‍💻 Author
 
-Student Developer
+Developed by Arshid Ahmad Malik
 
-Android App Development Project
+---
 
-## License
+## ⭐ Support
 
-This project is developed for academic and internship purposes.
+If you find this project useful, give it a star
